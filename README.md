@@ -1,9 +1,9 @@
 # Node-Express - Typescript REST API template
 
 [![Status](https://img.shields.io/badge/status-active-success.svg)]()
-[![GitHub Issues](https://img.shields.io/github/issues/ThiagoKasperSouza/The-Documentation-Compendium.svg)](https://github.com/ThiagoKasperSouza/The-Documentation-Compendium/issues)
-[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/ThiagoKasperSouza/The-Documentation-Compendium.svg)](https://github.com/ThiagoKasperSouza/The-Documentation-Compendium/pulls)
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
+[![GitHub Issues](https://img.shields.io/github/issues/ThiagoKasperSouza/node-express.svg)](https://github.com/ThiagoKasperSouza/node-express/issues)
+[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/ThiagoKasperSouza/node-express.svg)](https://github.com/ThiagoKasperSouza/node-express/pulls)
+[![License](https://img.shields.io/badge/license-BSD-3-blue.svg)](/LICENSE)
 
 
 ## 🧐 About <a name = "about"></a>
@@ -91,7 +91,7 @@ Alternativas:
 
 - [@ThiagoKasperSouza](https://github.com/ThiagoKasperSouza) - Idea & Initial work
 
-See also the list of [contributors](https://github.com/ThiagoKasperSouza/The-Documentation-Compendium/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/ThiagoKasperSouza/node-express/contributors) who participated in this project.
 
 ## 🎉 Acknowledgements <a name = "acknowledgement"></a>
 
