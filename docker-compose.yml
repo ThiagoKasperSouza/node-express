@@ -1,0 +1,44 @@
+version: '3'
+services:
+  api1:
+    container_name: express_api_1
+    restart: on-failure
+    build: .
+    ports:
+      - "3000:3000"
+    volumes:
+      - .:/home/node
+      - /home/node/node_modules
+    networks:
+      rede:
+        ipv4_address: 10.5.0.2
+  api2:
+    container_name: express_api_2
+    restart: on-failure
+    build: .
+    ports:
+      - "3001:3000"
+    volumes:
+      - .:/home/node
+      - /home/node/node_modules
+    networks:
+      rede:
+        ipv4_address: 10.5.0.3
+  nginx:
+    build: ./src/nginx
+    container_name: nginx
+    ports:
+      - "5000:5000"
+    networks:
+      - rede
+    depends_on:
+      - api1
+      - api2
+
+networks:
+  rede:
+    driver: bridge
+    ipam:
+     config:
+       - subnet: 10.5.0.0/16
+         gateway: 10.5.0.1
