@@ -3,7 +3,7 @@
 [![Status](https://img.shields.io/badge/status-active-success.svg)]()
 [![GitHub Issues](https://img.shields.io/github/issues/ThiagoKasperSouza/node-express.svg)](https://github.com/ThiagoKasperSouza/node-express/issues)
 [![GitHub Pull Requests](https://img.shields.io/github/issues-pr/ThiagoKasperSouza/node-express.svg)](https://github.com/ThiagoKasperSouza/node-express/pulls)
-[![License](https://img.shields.io/badge/license-BSD-3-blue.svg)](/LICENSE)
+[![License](https://img.shields.io/badge/license-BSD_3-blue.svg)](/LICENSE)
 
 
 ## 🧐 About <a name = "about"></a>
